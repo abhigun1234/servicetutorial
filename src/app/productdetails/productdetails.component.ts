@@ -4,7 +4,10 @@ import {ProductService} from '..//product.service'
   selector: 'app-productdetails',
   templateUrl: './productdetails.component.html',
   styleUrls: ['./productdetails.component.css']
-})
+  
+
+}
+)
 export class ProductdetailsComponent implements OnInit {
   productDetails=[]
   constructor(public productService : ProductService) { }
