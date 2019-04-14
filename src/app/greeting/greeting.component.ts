@@ -18,8 +18,8 @@ export class GreetingComponent implements OnInit {
     this.greet.greetings().subscribe(res=>{
       alert("hello")
         console.log(res)
-        this.id=res.id
-        this.content=res.content
+        // this.id=res.id
+        // this.content=res.content
     })
     
  }

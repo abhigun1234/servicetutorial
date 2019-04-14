@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ProductlistComponent } from './productlist/productlist.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { GreetingComponent } from './greeting/greeting.component';
+import { GithubuseComponent } from './githubuse/githubuse.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductlistComponent,
     ProductdetailsComponent,
-    GreetingComponent
+    GreetingComponent,
+    GithubuseComponent
   ],
   imports: [
     BrowserModule,
